@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00dda2;
+    font-family: 'Franklin Gothic Medium';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: chartreuse;
+    border-radius: 18px;
+    padding: 50px 20px;
+    max-width: 100%;
+    width: 650px;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+
+.joke {
+    font-size: 40px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 550px;
+}
+
+.btn {
+    background-color: #da4747;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: medium;
+    padding: 17px 45px;
+}
+
+.btn:active {
+    transform: scale(0.94);
+}
+
+.btn:focus {
+    outline: 0;
+}
