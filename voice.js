@@ -93,8 +93,7 @@ const speak = () => {
     speakText.pitch = pitch.value;
     // Speak
     synth.speak(speakText);
-  }
-};
+  };
 
 // EVENT LISTENERS
 
